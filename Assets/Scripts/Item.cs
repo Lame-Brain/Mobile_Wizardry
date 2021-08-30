@@ -8,4 +8,14 @@ public class Item
     public bool isEquipped;
     public bool isIdentified;
     public bool curseActive;
+
+    public Item(int ID)
+    {
+        this.item_ID = ID;
+        this.isEquipped = false;
+        this.isIdentified = true;
+        this.curseActive = false;
+    }
+
+    public ItemStatic getInfo() { return ListManager.ITEMLIST[this.item_ID]; }
 }
