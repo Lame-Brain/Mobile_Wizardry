@@ -1,0 +1,3 @@
+ID,ID_Name,UnID_Name,Slot,Class,Price,toHit,hitDam,Swings,AC_bonus,Class Protect,Element Protect,Special,cast,invoke,chance to break,next form,alignment
+0,Broken Item,Broken Item,Misc,,0,0,0,0,0,,,,,,0,0,0
+1,Long Sword,Sword,Weapon,FTSLN,25,4,8,0,0,,,,,,0,1,0
