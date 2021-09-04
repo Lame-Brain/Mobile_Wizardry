@@ -18,7 +18,7 @@ public class PlayerCharacter
     public string RoomID;
     public bool CritHit, OK, afraid, asleep, paralyzed, stoned, dead, ashes, lost;
     //Equipment
-    //public Item equipped_Weapon, equipped_Shield, equipped_Armor, equipped_Accessory;
-    //public Item[] inventory //(max 10)
+    public Item equipped_Weapon, equipped_Shield, equipped_Armor, equipped_Accessory;
+    public Item[] inventory; //(max 10)
     
 }
